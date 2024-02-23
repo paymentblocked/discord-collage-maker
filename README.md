@@ -1,6 +1,6 @@
 # Auto Success Collage Maker
 
-This script pulls iamges from a Discord channel using Discord.py and creates a collage.
+This script pulls images from a Discord channel using Discord.py and creates a collage.
 
 ### USAGE
 `.getSuccess [imageCount]`

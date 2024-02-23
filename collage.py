@@ -19,15 +19,15 @@ async def on_ready():
     print(client.user.name)
     print(client.user.id)
     print('------')  
-    activity = discord.Activity(name="NASDAQ...", type=discord.ActivityType.watching)
+    activity = discord.Activity(name="...", type=discord.ActivityType.watching)
     await client.change_presence(status=discord.Status.dnd, activity=activity)
 
 
 @client.event
 async def on_message(message):
 
-    botSpam = client.get_channel(1208359737280962622)
-    gains = client.get_channel(1207131533299810384)
+    botSpam = client.get_channel(spamChannelID)
+    gains = client.get_channel(successID)
     if botSpam.id == message.channel.id:
         if message.content.startswith(".getSuccess"):
             userContent = message.content

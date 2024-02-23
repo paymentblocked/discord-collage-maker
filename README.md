@@ -9,5 +9,6 @@ This script pulls messages from a Discord channel using Discord.py.
 
 1. Run `pip install -r requirements.txt`
 2. Edit the values in `.env`
-3. Add channel ID's and token in `collage.py`
-4. Run `python collage.py`
+3. Create `pictures` folder
+4. Add channel ID's and token in `collage.py`
+5. Run `python collage.py`
